@@ -3,7 +3,6 @@ body {
     margin: 0;
 }
 
-/* HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,7 @@ nav a {
     font-size: 18px;
 }
 
-/* MAIN */
+
 main {
     padding: 20px;
 }
@@ -43,7 +42,6 @@ img {
     margin: 10px;
 }
 
-/* FOOTER */
 footer {
     background: #222;
     color: white;
@@ -51,7 +49,6 @@ footer {
     padding: 15px;
 }
 
-/* FLOATING BUTTONS */
 .top-btn {
     position: fixed;
     bottom: 20px;
@@ -72,7 +69,6 @@ footer {
     text-decoration: none;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -81,4 +77,4 @@ footer {
     header {
         flex-direction: column;
     }
-}
+
